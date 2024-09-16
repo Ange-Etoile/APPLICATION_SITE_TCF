@@ -11,3 +11,6 @@ Route::get('/acceuil', function () {
 Route::get('/layourts', function(){
     return view('layourts.header');
 });
+Route::get('/question', function(){
+    return view('question');
+});
