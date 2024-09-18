@@ -6,7 +6,14 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'gradient-button':'linear-gradient(to right, rgb(182,227,212), rgba(19,94,242,1))',
+      },
+      colors:{
+        'color-proposition' :'#bdd5e9',
+      }
+    },
   },
   plugins: [],
 }

@@ -25,7 +25,7 @@
             </ul>
         </nav>
     </header>
-    <div class=" sticky top-0 left-0 right-0 bg-white w-full flex justify-around items-center shadow-lg h-[60px]">
+    <div class=" sticky top-0 left-0 right-0 z-[1000] bg-white w-full flex justify-around items-center shadow-lg h-[60px]">
         <div>
             <img src="images/labo.PNG" class="h-[60px] w-[70px]" alt="">
         </div>
