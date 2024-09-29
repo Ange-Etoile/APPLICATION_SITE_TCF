@@ -58,5 +58,6 @@
             <button class="cursor-pointer bg-blue-900 rounded-lg p-2 font-bold">cliquer ici</button>
         </div>
     </footer>
+    <script type="module" src="js/question.js"></script>
 </body>
 </html>

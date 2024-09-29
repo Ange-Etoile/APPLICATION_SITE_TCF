@@ -12,5 +12,5 @@ Route::get('/acceuil', function () {
 Route::get('/layourts', function(){
     return view('layourts.header');
 });
-Route::get('/question', [QuestionController::class,'liste_question']);
+Route::get('/question', [QuestionController::class,'liste_question'])->name('question');
     

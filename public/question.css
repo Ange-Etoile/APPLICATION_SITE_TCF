@@ -1,0 +1,10 @@
+.actuel{
+    border: 2px solid black !important;
+}
+.active{
+    border: 4px solid  rgba(19,94,242,1);
+}
+.repondu{
+    background-color: black !important;
+    color: white !important;
+}

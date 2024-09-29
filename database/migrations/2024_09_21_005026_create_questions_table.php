@@ -12,13 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('questions', function (Blueprint $table) {
-            $table->integer('id_question')->index();
-            $table->foreignId('id_sujet')->constrained('sujets')->onDelete('cascade');
+            $table->id();
+            $table->foreignId('id_sujet')->nullable()->index();
             $table->string('audio');
-            $table->string('proposition1');
-            $table->string('proposition2');
-            $table->string('proposition3');
-            $table->string('proposition4');
+            $table->string('propositions');
             $table->string('nombre_point');
             $table->timestamps();
         });
