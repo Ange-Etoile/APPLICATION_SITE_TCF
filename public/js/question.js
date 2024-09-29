@@ -176,4 +176,4 @@ if(id>1){
         window.location.href = window.location.pathname + '?id='+ids+'#container-question-answer';
     })
 }
-
+//===================================action sur le bouton terminer============================//
