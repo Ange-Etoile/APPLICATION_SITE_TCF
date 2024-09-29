@@ -177,3 +177,6 @@ if(id>1){
     })
 }
 //===================================action sur le bouton terminer============================//
+document.getElementById('terminez').addEventListener('click',function(){
+    
+})
