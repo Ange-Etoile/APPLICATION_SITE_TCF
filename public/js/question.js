@@ -178,5 +178,14 @@ if(id>1){
 }
 //===================================action sur le bouton terminer============================//
 document.getElementById('terminez').addEventListener('click',function(){
+    const proposition = getData('propositions');
+    let i = 0
+    while(i<(proposition.length - 1) && endquiz === true){
+        if(proposition[i][0] === -1 && proposition[i][1] === -1){
+            endquiz = false
+        }else{
+            i++
+        }
+    }
     
 })
